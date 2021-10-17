@@ -1,0 +1,6 @@
+.background {
+  z-index: -1;
+  position: fixed;
+  inset: 0px;
+  background: linear-gradient(#f4f0f3, #eaf3f7);
+}

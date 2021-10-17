@@ -1,0 +1,50 @@
+.item {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    overflow: hidden;
+    height: 45px;
+    padding: 26px 20px;
+    background: white;
+    box-shadow: 0 4px 6px -1px rgba(62, 118, 244, 0.14),
+    inset 0px -10px 8px -10px rgba(62, 118, 244, 0.14);
+    border: 1px solid #EAEAEA;
+}
+
+.item:first-child, .item:last-child {
+    border-radius: 6px 6px 0 0;
+}
+
+.item:hover {
+    background: #FCFCFC;
+    border-color: #DADADA;
+}
+
+.avatar {
+    border-radius: 100%;
+}
+
+.text {
+    display: grid;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text p:hover, item:hover {
+    text-overflow: initial;
+    overflow: auto;
+}
+
+.text time {
+    font-size: 12px;
+    color: #C4C0C9;
+}
